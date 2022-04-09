@@ -8,7 +8,7 @@ export const ProfileContainer = styled.div`
   border-radius: 10px;
   margin: auto;
   background-color: white;
-  padding: 24px;
+  padding-top: 24px;
 `;
 
 export const ProfileDescription = styled.div`
