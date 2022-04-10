@@ -45,10 +45,13 @@ export const ProfileLocation = styled.p`
 export const ProfileStatsList = styled.ul`
   padding-inline-start: 0;
   margin-top: 30px;
+  margin-bottom: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
   border-top: 1px solid black;
+  border-radius: 0 0 10px 10px;
+  background-color: rgb(249, 245, 239);
 `;
 
 export const ProfileStatsItem = styled.li`
