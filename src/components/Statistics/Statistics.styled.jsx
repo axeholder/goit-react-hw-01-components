@@ -16,21 +16,31 @@ export const StatisticsTitle = styled.h2`
 `;
 
 export const StatisticsList = styled.ul`
-  // border-top: 1px solid black;
+  border-top: 1px solid black;
+  border-radius: 0 0 10px 10px;
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 0;
+  background-color: rgb(249, 245, 239);
 `;
+
 export const StatisticsItem = styled.li`
+  width: 100%;
   font-family: 'Roboto';
-  // text-align: center;
+  padding: 10px 0;
   display: flex;
+
   flex-direction: column;
+  :not(:last-child) {
+    border-right: 1px solid black;
+  }
 `;
 
 export const StatisticsLabel = styled.span`
   font-family: 'Roboto';
+  color: gray;
 `;
 
 export const StatisticsPercentage = styled.span`
